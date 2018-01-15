@@ -33,7 +33,6 @@ class Driver():
 
 if __name__ == '__main__':
     # Test that driver loads the page
-    from driver import Driver
     driver = Driver()
     driver.get_page('https://asunnot.oikotie.fi')
 
